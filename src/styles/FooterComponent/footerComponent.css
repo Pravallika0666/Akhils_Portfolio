@@ -1,0 +1,79 @@
+.bold-text {
+  color: #ddd !important;
+}
+
+.readmore-quote-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.footer-container {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(30, 41, 59, 0.5);
+  padding: 10px 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.footer-container-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container-media-github, .footer-container-media-linkedin, .footer-container-contact-info.phone-number, .footer-container-contact-info.gmail {
+  color: rgba(226, 232, 240, 0.85);
+  margin-right: 30px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer-container-github-linkedin, .footer-container-phoneno-gmail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-container-media-github {
+  margin: 0 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(30, 41, 59, 0.5);
+    padding: 10px 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-container {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(30, 41, 59, 0.5);
+    padding: 10px 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+@media only screen and (max-width: 375px) {
+  .footer-container {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(30, 41, 59, 0.5);
+    padding: 10px 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}/*# sourceMappingURL=footerComponent.css.map */

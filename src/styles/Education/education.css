@@ -1,0 +1,79 @@
+.bold-text {
+  color: #ddd !important;
+}
+
+.readmore-quote-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.education-container {
+  margin-bottom: 20px;
+}
+
+.education-container-mobile-view {
+  display: none;
+}
+
+.education-container-icon {
+  border: unset;
+  background: unset;
+  color: rgba(226, 232, 240, 0.85);
+  font-weight: 700;
+  font-size: 18px;
+  padding: unset;
+  display: flex;
+  align-items: center;
+}
+
+.bi.bi-chevron-down, .bi.bi-chevron-up {
+  padding-left: 10px;
+}
+
+.education-container-tab-collegeName {
+  color: rgba(226, 232, 240, 0.85);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 14px 0 0 0;
+}
+
+.education-container-tab-collegeName span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(148, 163, 184, 0.85);
+}
+
+@media only screen and (max-width: 600px) {
+  .education-container {
+    margin-bottom: 10px;
+  }
+  .education-container-mobile-view {
+    display: contents;
+  }
+  .education-container-desktop-view {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .education-container {
+    margin-bottom: 10px;
+  }
+  .education-container-mobile-view {
+    display: contents;
+  }
+  .education-container-desktop-view {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .education-container {
+    margin-bottom: 10px;
+  }
+  .education-container-mobile-view {
+    display: contents;
+  }
+  .education-container-desktop-view {
+    display: none;
+  }
+}/*# sourceMappingURL=education.css.map */

@@ -1,0 +1,30 @@
+.bold-text {
+  color: #ddd !important;
+}
+
+.readmore-quote-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.projects-container-icon {
+  border: unset;
+  background: unset;
+  color: rgba(226, 232, 240, 0.85);
+  font-weight: 700;
+  font-size: 18px;
+  padding: unset;
+  display: flex;
+  align-items: center;
+}
+
+.bi.bi-chevron-down, .bi.bi-chevron-up {
+  padding-left: 10px;
+}
+
+.projects-container-description-tab.header {
+  color: rgba(226, 232, 240, 0.85);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 14px 0 0 0;
+}/*# sourceMappingURL=projectsPage.css.map */

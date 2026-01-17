@@ -1,0 +1,26 @@
+@use "../CommonVariables/variables";
+
+.projects-container-icon {
+    border: unset;
+    background: unset;
+    color: variables.$primary-font-color;
+    font-weight: 700;
+    font-size: 18px;
+    padding: unset;
+    display: flex;
+    align-items: center;
+
+}
+
+.bi.bi-chevron-down, .bi.bi-chevron-up {
+    padding-left: 10px;
+}
+
+.projects-container-description-tab.header {
+    color: variables.$primary-font-color;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 14px 0 0 0;
+}
+
+

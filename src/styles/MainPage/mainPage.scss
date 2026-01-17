@@ -1,0 +1,91 @@
+@use "../CommonVariables/variables";
+
+html,
+body {
+  // height: auto;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: variables.$mainPage-bg-color;
+  font-family: variables.$font;
+  -webkit-font-smoothing: variables.$webkit-font-smoothing;
+  -moz-osx-font-smoothing: variables.$moz-osx-font-smoothing;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  text-align-last: left;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 32px;
+  align-items: start;
+}
+
+.container-mobile {
+  display: none;
+}
+
+#root {
+  // height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-page {
+  margin: 0 40px 0 40px;
+  grid-column: 1 / -1;
+}
+
+.readmore-quote-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: variables.$secondary-font-color;
+  font-weight: 600;
+}
+
+.container-page {
+  margin: 0 30px 15px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  // mobile styles here
+  .container-page {
+    margin: 25px 30px 15px 30px;
+  }
+  .container {
+    display: none; /* disables grid */
+  }
+  .container-mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  // mobile styles here
+  .container-page {
+    margin: 25px 30px 15px 30px;
+  }
+  .container {
+    display: none; /* disables grid */
+  }
+  .container-mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  // mobile styles here for iphone
+  .container-page {
+    margin: 25px 30px 15px 30px;
+  }
+  .container {
+    display: none; /* disables grid */
+  }
+  .container-mobile {
+    display: block;
+  }
+}
