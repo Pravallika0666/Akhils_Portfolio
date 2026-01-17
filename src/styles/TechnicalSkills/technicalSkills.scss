@@ -1,0 +1,88 @@
+@use "../CommonVariables/variables";
+
+.technicalSkills-container {
+    margin-bottom: 20px;
+}
+
+.technicalSkills-container-mobile-view {
+    display: none;
+}
+
+.technicalSkills-container-icon {
+    border: unset;
+    background: unset;
+    color: variables.$primary-font-color;
+    font-weight: 700;
+    font-size: 18px;
+    padding: unset;
+    display: flex;
+    align-items: center;
+
+}
+
+.bi.bi-chevron-down, .bi.bi-chevron-up {
+    padding-left: 10px;
+}
+
+.technicalSkills-container-description-tab.header {
+    color: variables.$primary-font-color;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 14px 0 0 0;
+}
+
+.technicalSkills-container-description-tab {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.technicalSkills-container-description-tab-keybuttons {
+    background-color: rgba(45, 212, 191, 0.1);
+    border-radius: 9999px;
+    color: rgb(94, 234, 212, 1);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 15px 10px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    // mobile styles here
+    .technicalSkills-container  {
+        margin-bottom: 10px;
+    }
+    .technicalSkills-container-desktop-view {
+        display: none;
+    }
+    .technicalSkills-container-mobile-view {
+        display: contents;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    // mobile styles here
+    .technicalSkills-container  {
+        margin-bottom: 10px;
+    }
+    .technicalSkills-container-desktop-view {
+        display: none;
+    }
+    .technicalSkills-container-mobile-view {
+        display: contents;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    // mobile styles here for iphone
+    .technicalSkills-container  {
+        margin-bottom: 10px;
+    }
+    .technicalSkills-container-desktop-view {
+        display: none;
+    }
+    .technicalSkills-container-mobile-view {
+        display: contents;
+    }
+}

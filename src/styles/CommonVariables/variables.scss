@@ -1,0 +1,29 @@
+//Main Page styles
+
+//Main page background color
+$mainPage-bg-opacity: 0.95; 
+$mainPage-bg-color: rgba(15, 23, 42, $mainPage-bg-opacity);
+
+
+//Fonts
+$tw-text-opacity: 0.85;
+$primary-font-color: rgba(226, 232, 240, $tw-text-opacity); //Primary Font Color
+$secondary-font-color: rgb(148, 163, 184, $tw-text-opacity); // Secondary font color
+$teritary-font-color: #ddd; //Teritary font color
+$font: "Inter", sans-serif;
+$webkit-font-smoothing: antialiased;
+$moz-osx-font-smoothing: grayscale;
+
+
+//Bold Text class
+.bold-text {
+    color: $teritary-font-color !important;
+}
+
+//Read More quote text
+.readmore-quote-text {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+

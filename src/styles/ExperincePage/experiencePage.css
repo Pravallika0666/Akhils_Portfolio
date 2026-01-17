@@ -1,0 +1,103 @@
+.bold-text {
+  color: #ddd !important;
+}
+
+.readmore-quote-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.experience-container {
+  margin-bottom: 20px;
+}
+
+.experience-container-mobile-view {
+  display: none;
+}
+
+.experience-container-icon {
+  border: unset;
+  background: unset;
+  color: rgba(226, 232, 240, 0.85);
+  font-weight: 700;
+  font-size: 18px;
+  padding: unset;
+  display: flex;
+  align-items: center;
+}
+
+.bi.bi-chevron-down,
+.bi.bi-chevron-up {
+  padding-left: 10px;
+}
+
+.experience-container-tab {
+  margin-top: 14px;
+  color: rgba(148, 163, 184, 0.85);
+}
+
+.experience-container-tab-year {
+  color: rgba(148, 163, 184, 0.85);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 22px !important;
+}
+
+.experience-container-tab-company {
+  margin: unset;
+  padding-left: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(226, 232, 240, 0.85);
+}
+
+.experience-container-tab-company-keybuttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-container-tab-company-keybuttons.snowflake, .experience-container-tab-company-keybuttons.sql, .experience-container-tab-company-keybuttons.tableau, .experience-container-tab-company-keybuttons.qa-performance {
+  background-color: rgba(45, 212, 191, 0.1);
+  border-radius: 9999px;
+  color: rgb(94, 234, 212);
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 15px 10px 0;
+}
+
+.experience-container-tab-company.header {
+  color: rgba(226, 232, 240, 0.85);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 14px 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience-container {
+    margin-bottom: 10px;
+  }
+  .experience-container-mobile-view {
+    display: contents;
+  }
+  .experience-container-desktop-view {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .experience-container {
+    margin-bottom: 10px;
+  }
+  .experience-container-mobile-view {
+    display: contents;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .experience-container {
+    margin-bottom: 10px;
+  }
+  .experience-container-mobile-view {
+    display: contents;
+  }
+}/*# sourceMappingURL=experiencePage.css.map */

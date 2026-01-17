@@ -1,0 +1,87 @@
+.bold-text {
+  color: #ddd !important;
+}
+
+.readmore-quote-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.technicalSkills-container {
+  margin-bottom: 20px;
+}
+
+.technicalSkills-container-mobile-view {
+  display: none;
+}
+
+.technicalSkills-container-icon {
+  border: unset;
+  background: unset;
+  color: rgba(226, 232, 240, 0.85);
+  font-weight: 700;
+  font-size: 18px;
+  padding: unset;
+  display: flex;
+  align-items: center;
+}
+
+.bi.bi-chevron-down, .bi.bi-chevron-up {
+  padding-left: 10px;
+}
+
+.technicalSkills-container-description-tab.header {
+  color: rgba(226, 232, 240, 0.85);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 14px 0 0 0;
+}
+
+.technicalSkills-container-description-tab {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technicalSkills-container-description-tab-keybuttons {
+  background-color: rgba(45, 212, 191, 0.1);
+  border-radius: 9999px;
+  color: rgb(94, 234, 212);
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 15px 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .technicalSkills-container {
+    margin-bottom: 10px;
+  }
+  .technicalSkills-container-desktop-view {
+    display: none;
+  }
+  .technicalSkills-container-mobile-view {
+    display: contents;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .technicalSkills-container {
+    margin-bottom: 10px;
+  }
+  .technicalSkills-container-desktop-view {
+    display: none;
+  }
+  .technicalSkills-container-mobile-view {
+    display: contents;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .technicalSkills-container {
+    margin-bottom: 10px;
+  }
+  .technicalSkills-container-desktop-view {
+    display: none;
+  }
+  .technicalSkills-container-mobile-view {
+    display: contents;
+  }
+}/*# sourceMappingURL=technicalSkills.css.map */
