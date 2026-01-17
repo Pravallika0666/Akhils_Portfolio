@@ -14,6 +14,7 @@ const FooterComponent = () => {
             className="footer-container-media-github"
             href="https://github.com/AkhilVeluru"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,6 +31,7 @@ const FooterComponent = () => {
             className="footer-container-media-linkedin"
             href="https://www.linkedin.com/in/akhilveluru"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +64,7 @@ const FooterComponent = () => {
             </svg>
           </a>
           <a className="footer-container-contact-info gmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=akhilveluru@outlook.com"
-  target="_blank">
+  target="_blank" rel="noopener noreferrer">
             <svg
               viewBox="0 0 30 30"
               data-name="Layer 1"
