@@ -48,7 +48,9 @@ const MainPage = () => {
 
         {/**Footer */}
       </div>
-      <FooterComponent />
+      <div className="footer-component">
+        <FooterComponent />
+      </div>
     </React.Fragment>
   );
 };
